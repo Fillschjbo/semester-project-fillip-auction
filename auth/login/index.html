@@ -6,7 +6,22 @@
     <script type="module" src="/src/app.js"></script>
     <title>Log in</title>
 </head>
+
 <body>
-    <h1>this is login</h1>
+    <h1>Login</h1>
+    <form name="login">
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required/>
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required/>
+        </div>
+
+        <a href="/auth/register/">Register</a>
+        <button>Login</button>
+    </form>
 </body>
 </html>
