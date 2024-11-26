@@ -13,7 +13,7 @@ function getOptions(accessToken) {
     };
 }
 
-export async function readListings(limit = 12, page = 1) {
+export async function readListings(limit = 25, page = 1) {
     const accessToken = await getKey();
     if (!accessToken) {
         console.error("Could not fetch posts. No access token found.");
