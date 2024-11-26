@@ -37,3 +37,32 @@ export async function readListings(limit = 25, page = 1) {
         console.error("Error:", error.message);
     }
 }
+
+export async function readListing(id) {
+    const accessToken = await getKey();
+    if (!accessToken) {
+        console.error("Could not fetch post. No access token found.");
+        return;
+    }
+
+    const listingId = localStorage.getItem(`listingId`);
+    if(!listingId) {
+        alert("No postId found")
+        return;
+    }
+
+    try {
+        const response = await fetch(`${API_AUCTION_LISTINGS}/${listingId}`, getOptions(accessToken));
+
+        if (!response.ok) {
+            throw new Error(`Failed to fetch listing: ${response.statusText}`);
+        }
+
+        const listing = await response.json();
+        console.log(listing)
+        return listing;
+
+    } catch (error) {
+        console.error("Error fetching listing:", error.message);
+    }
+}
