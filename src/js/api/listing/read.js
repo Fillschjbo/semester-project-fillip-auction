@@ -52,7 +52,7 @@ export async function readListing(id) {
     }
 
     try {
-        const response = await fetch(`${API_AUCTION_LISTINGS}/${listingId}`, getOptions(accessToken));
+        const response = await fetch(`${API_AUCTION_LISTINGS}/${listingId}/?_seller=true&_bids=true`, getOptions(accessToken));
 
         if (!response.ok) {
             throw new Error(`Failed to fetch listing: ${response.statusText}`);
