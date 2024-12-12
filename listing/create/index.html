@@ -7,6 +7,28 @@
     <title>Create Listing</title>
 </head>
 <body>
-    create
+    <form name="createListing">
+        <label for="mediaUrl">Media URL:</label>
+        <input type="url" id="mediaUrl" name="mediaUrl" placeholder="Enter media URL"/>
+        <br/>
+
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" placeholder="Title" required/>
+        <br/>
+
+        <label for="tags">Tags:</label>
+        <input type="text" id="tags" name="tags" placeholder="Enter tags" />
+        <br/>
+
+        <label for="endsAt">Ends At:</label>
+        <input type="datetime-local" id="endsAt" name="endsAt" placeholder="End at" />
+        <br/>
+
+        <label for="body">Body:</label>
+        <textarea id="body" name="body" placeholder="Description" required></textarea>
+        <br/>
+
+        <button type="submit">Create Listing</button>
+    </form>
 </body>
 </html>
