@@ -15,7 +15,7 @@ function getOptions(accessToken) {
 export async function readProfile(user){
     const accessToken =  await getKey();
     if (!accessToken){
-        console.error("Could not fetch post. No access token found.");
+        console.error("User is not logged in. No access token found.");
         return;
     }
 

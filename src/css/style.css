@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
+
+@font-face {
+    font-family: 'Geist';
+    src: local('Geist'), url(assets/fonts/geist) format('ttf');
+}
+
+@font-face {
+    font-family: 'Kollektif';
+    src: local('Kollektif'), url(assets/fonts/kollektif) format('ttf');
+}
+
 @tailwind utilities;
+

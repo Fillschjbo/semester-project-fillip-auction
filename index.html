@@ -6,9 +6,34 @@
     <script type="module" src="/src/app.js"></script>
     <title>Home</title>
   </head>
+  <header class="bg-secondary w-screen h-header-sm lg:h-header-lg">
+    <div id="header" class="flex items-center justify-between h-full px-4">
+      <img src="assets/logo/Logo.svg" alt="logo" id="logo" class="h-6 w-16 lg:h-9 lg:w-24">
+      <div id="headerBtns" class="flex items-center space-x-4">
+        <img src="assets/icons/Search-icon.svg" alt="search" id="search" class="h-6 w-6 md:h-8 md:w-8 lg:h-8 lg:w-8">
+        <div id="searchFormContainer" class="mt-4"></div>
+        <img src="assets/icons/Alert-icon.svg" alt="alerts" id="alert" class="h-6 w-6 hidden md:block md:h-8 md:w-8 lg:h-8 lg:w-8">
+        <div id="creditBalance" class="flex h-full items-center">
+          <img src="assets/icons/Tokens-icon.svg" alt="tokens" class="h-6 w-6 md:h-8 md:w-8 lg:h-8 lg:w-8">
+          <div id="tokens" class="font-Geist font-bold text-darkGreen text-xs md:text-xl"></div>
+        </div>
+        <img src="assets/icons/Profile-icon.svg" alt="profile" id="profile" class="h-6 w-6 md:h-8 md:w-8 lg:h-8 lg:w-8">
+      </div>
+    </div>
+    <div id="profileMenu" class="bg-secondary w-48 min-h-screen hidden right-0 top-0 z-10 shadow">
+      <div id="closeBtn" class="font-Geist font-xs text-darkGreen pl-4 pt-4">Close X</div>
+      <div id="menuBtns" class="flex">
+      </div>
+    </div>
+  </header>
+
+
   <body>
+
     <div id="app"></div>
-        <div id="listingsContainer"></div>
+    <div id="searchResults" class="mt-4"></div>
+        <div id="listingsContainer">
+        </div>
         <button id="logout-btn">Logout</button>
   </body>
 </html>

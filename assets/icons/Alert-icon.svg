@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
+<g transform="matrix(1 0 0 1 540 540)" id="c95d3fef-d556-431b-a486-39113b89edc0"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
+</g>
+<g transform="matrix(1 0 0 1 540 540)" id="c086ceb1-fade-4024-8d75-86e54a33ea7c"  >
+</g>
+<g transform="matrix(33.75 0 0 33.75 540 540)"  >
+<path style="stroke: rgb(0,33,15); stroke-width: 2; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-16, -15.34)" d="M 20 22.6667 L 20 24 C 20 26.2092 18.2092 28 16 28 C 13.7908 28 12 26.2092 12 24 L 12 22.6667 M 20 22.6667 L 12 22.6667 M 20 22.6667 L 24.7873 22.6667 C 25.2973 22.6667 25.5536 22.6667 25.7601 22.5971 C 26.1547 22.464 26.4633 22.1542 26.5964 21.7598 C 26.6663 21.5524 26.6663 21.2954 26.6663 20.7812 C 26.6663 20.5563 26.666 20.4439 26.6484 20.3366 C 26.6152 20.1339 26.5365 19.9418 26.4168 19.775 C 26.3535 19.6868 26.2729 19.6064 26.1144 19.4478 L 25.5951 18.9284 C 25.4275 18.7608 25.3333 18.5335 25.3333 18.2966 L 25.3333 13.3334 C 25.3333 8.17871 21.1547 4.00003 16 4.00004 C 10.8453 4.00006 6.66667 8.17872 6.66667 13.3334 L 6.66667 18.2966 C 6.66667 18.5336 6.57231 18.7608 6.40475 18.9284 L 5.88541 19.4478 C 5.72636 19.6068 5.64672 19.6867 5.58333 19.775 C 5.46355 19.9419 5.38419 20.1339 5.35092 20.3366 C 5.33332 20.4439 5.33333 20.5563 5.33333 20.7814 C 5.33333 21.2954 5.33333 21.5523 5.40327 21.7596 C 5.53633 22.1542 5.84639 22.464 6.24087 22.5971 C 6.4474 22.6667 6.70268 22.6667 7.21275 22.6667 L 12 22.6667 M 24.0248 2.68494 C 25.8637 4.0707 27.3124 5.90907 28.2299 8.02103 M 7.97595 2.68494 C 6.13699 4.0707 4.68827 5.90907 3.77081 8.02103" stroke-linecap="round" />
+</g>
+</svg>

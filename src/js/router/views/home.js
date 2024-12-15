@@ -1,8 +1,10 @@
 import {setLogoutListener} from "../../../../ui/global/logut.js";
 import {readListings} from "../../api/listing/read.js";
+import {getUserData} from "../../../../ui/global/header.js";
 
 const listingsContainer = document.getElementById('listingsContainer');
 
+getUserData ()
 async function displayListings(page = 1) {
     const data = await readListings(25, page)
     if (!data) {
